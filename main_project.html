@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fylo Landing | Page</title>
+    <link rel="icon" href="logo.svg" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+      .class {
+        margin: 0;
+        width: 100%;
+      }
+      body {
+        margin: 0;
+
+        color: hsl(243, 87%, 12%);
+        font-family: "Open Sans", sans-serif;
+        /* font-family: "Raleway", sans-serif; */
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        font-family: "Raleway", sans-serif;
+      }
+      h1 {
+        font-family: "Raleway", sans-serif;
+      }
+      ul {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+      }
+
+      .firstfooter {
+        background-color: hsl(238, 22%, 44%);
+        color: white;
+        padding: 65px 45px;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+      }
+      li a {
+        display: block;
+        text-decoration: none;
+        color: hsl(238, 22%, 44%);
+        padding: 10px 30px;
+        text-align: center;
+        font-weight: 550;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+      li a:hover {
+        background-color: #f1f1f1;
+        color: #000;
+        border-radius: 25px;
+      }
+      footer {
+        background-color: hsl(243, 87%, 12%);
+        color: white;
+
+        padding: 113px 150px 63px 93px;
+      }
+      .sfooter {
+        display: flex;
+        margin: 0;
+        justify-content: space-between;
+        line-height: 2.2;
+      }
+      .weird {
+        background-color: hsl(240, 75%, 98%);
+        margin-top: -32px;
+        padding: 40px 50px;
+      }
+      .poo {
+        color: hsl(170, 45%, 43%);
+        text-decoration: none;
+        border-bottom: 1px solid hsl(170, 45%, 43%);
+      }
+      p {
+        font-size: 16px;
+      }
+      .padding {
+        padding: 40px 30px;
+      }
+      .list {
+        list-style-type: none;
+        color: white;
+      }
+      .pplbox {
+        width: 350px;
+        font-size: 15px;
+        height: 200px;
+        color: inherit;
+        box-shadow: 1px 3px 5px hsl(225, 56%, 83%);
+        background-color: white;
+        padding: 20px;
+      }
+      @media screen and (max-width: 780px) {
+        .sfooter {
+          flex-direction: column;
+          flex: 100%;
+          line-height: 1.9;
+        }
+        .firstfooter {
+          flex-direction: column;
+        }
+        .class {
+          width: 100%;
+        }
+        header {
+          flex-direction: column;
+        }
+        ul {
+          flex-direction: column;
+          /* flex: 100%; */
+        }
+        li a {
+          width: 100%;
+          text-align: left;
+        }
+        li a:hover {
+          border-radius: 0px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="padding">
+      <header>
+        <div><img src="logo.svg" alt="logo" height="50" width="170" /></div>
+        <div>
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Sign In</a></li>
+          </ul>
+        </div>
+      </header>
+      <br /><br /><br />
+      <img
+        src="illustration-1.svg"
+        style="float: right"
+        alt="illustration-1"
+        height="480"
+        width="630"
+      /><br /><br />
+      <h1>
+        All your files in one secure <br />
+        location, accessible anywhere.
+      </h1>
+      <p>
+        Fylo stores your most important files in one secure location. Access
+        <br />
+        them wherever you need, share and collaborate with friends, family,
+        <br />
+        and co-workers.
+      </p>
+      <input
+        type="email"
+        style="
+          width: 270px;
+          height: 40px;
+          border: 1px solid hsl(243, 87%, 12%);
+          border-radius: 3px;
+          padding: 10px;
+        "
+        name="mail-e"
+        placeholder="Enter your email"
+      />
+      &nbsp;
+      <input
+        type="button"
+        style="
+          height: 40px;
+          width: 170px;
+          background-color: hsl(224, 93%, 58%);
+          color: #f1f1f1;
+          border: none;
+          border-radius: 3px;
+        "
+        value="Get Started"
+      />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    </div>
+    <img src="bg-curve-desktop.svg" alt="" height="150" class="class" />
+    <div class="weird">
+      <img
+        src="illustration-2.svg"
+        style="float: right"
+        alt="illustration-1"
+        height="430"
+        width="570"
+      />
+      <h1>Stay productive, wherever you are</h1>
+      <p>
+        Never let location be an issue when accessing your files. Fylo has you
+        <br />
+        covered for all of your file storage needs.
+      </p>
+      <p>
+        Securely share files and folders with friends, family and colleagues for
+        <br />
+        live collaboration. No email attachments required!
+      </p>
+      <a href="#" class="poo"> See how Fylo works</a>
+      <img src="icon-arrow.svg" width="16" height="16" alt="icon-arrow"/>
+      <br /><br />
+      <div class="pplbox">
+        <img src="icon-quotes.svg" width="17" height="17" alt="logo" /><br />
+        Fylo has improved our team productivity by <br />
+        an order of magnitude. Since making the <br />
+        switch our team has become a well-oiled <br />
+        collaboration machine. <br /><br />
+        <img
+          src="avatar-testimonial.jpg"
+          width="40"
+          height="40"
+          style="float: left; border-radius: 20px"
+          alt=""
+        /><span style="font-size: 10px">
+          <span style="font-weight: bolder">&nbsp;&nbsp;Kyle Burton</span><br />
+          &nbsp;&nbsp;Founder & CEO, Huddle</span
+        >
+      </div>
+    </div>
+    <div class="firstfooter">
+      <div>
+        <h1>Get early access today</h1>
+        <p>
+          It only takes a minute to sign up and our free starter tier is <br />
+          extremely generous. If you have any questions, our support team <br />
+          would be happy to help you.
+        </p>
+      </div>
+      <form action="#" method="get">
+        <input
+          type="email"
+          name="get-mail"
+          style="
+            height: 50px;
+            width: 470px;
+            padding: 15px;
+            border: none;
+            border-radius: 3px;
+          "
+          placeholder="email@example.com"
+        /><br /><br />
+        <input
+          type="button"
+          style="
+            height: 50px;
+            width: 200px;
+            background-color: hsl(224, 93%, 58%);
+            color: white;
+            border: none;
+            box-shadow: 1px 1px 8px hsl(0deg 5% 25%);
+            border-radius: 3px;
+            font-weight: bold;
+          "
+          value="Get Started For Free"
+        />
+      </form>
+    </div>
+    <footer>
+      <div><img src="logo.svg" alt="logo" height="50" width="170" /><br /></div>
+      <div class="sfooter">
+        <div>
+          <img src="icon-phone.svg" alt="phone" /> Phone: +1-543-123-4567
+          <br />
+          <img src="icon-email.svg" alt="email" /> example@fylo.com
+        </div>
+        <div>
+          About Us
+          <br />
+          Jobs <br />
+          Press <br />
+          Blog
+        </div>
+        <div>
+          Contact Us
+          <br />
+          Terms <br />
+          Privacy
+        </div>
+        <div>
+          <img
+            src="/topibro tutorial/frontend project/clipboard-landing-page-master/icon-facebook.svg"
+            height="35"
+            width="35"
+            alt=""
+          />
+          &nbsp; &nbsp;&nbsp;<img
+            src="/topibro tutorial/frontend project/clipboard-landing-page-master/icon-twitter.svg"
+            height="35"
+            width="35"
+            alt=""
+          />
+          &nbsp;&nbsp;
+          <img
+            src="/topibro tutorial/frontend project/clipboard-landing-page-master/icon-instagram.svg"
+            height="35"
+            width="35"
+            alt=""
+          />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
