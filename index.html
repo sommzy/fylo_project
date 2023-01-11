@@ -120,11 +120,23 @@
       padding: 20px;
     }
 
+    .first_input {
+      height: 50px;
+      width: 470px;
+      padding: 15px;
+      border: none;
+      border-radius: 3px;
+    }
+
     @media screen and (max-width: 780px) {
       .sfooter {
         flex-direction: column;
         flex: 100%;
         line-height: 1.9;
+      }
+
+      .first_input {
+        width: 100%;
       }
 
       .firstfooter {
@@ -238,13 +250,7 @@
       </p>
     </div>
     <form action="#" method="get">
-      <input type="email" name="get-mail" style="
-            height: 50px;
-            width: 470px;
-            padding: 15px;
-            border: none;
-            border-radius: 3px;
-          " placeholder="email@example.com" /><br /><br />
+      <input type="email" name="get-mail" class="first_input" placeholder="email@example.com" /><br /><br />
       <input type="button" style="
             height: 50px;
             width: 200px;
